@@ -1,6 +1,42 @@
+@font-face{
+	font-family:"Coffee Script";
+	src:url("../fonts/Coffee_Script.ttf");
+}
+
+@font-face{
+	font-family:"crabuler";
+	src:url("../fonts/RF Krabuler Regular.otf");
+}
+
 body{
+	font-family: "Coffee Script";
 	margin: 0 auto;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 *{
 	transition: .3s;
+}
+.section-main{
+	padding: 50px 10px 0;
+	height: 10000px;
+	background-image: url(../img/bg1.jpg);
+}
+h1{
+	font-family:"crabuler";
+	margin: 0;
+	text-align: left;
+	font-size: 60px;
+	color: white;
+}
+
+.main-cup{
+	margin-top: 30px;
+	float: right;
+}
+ul{
+	list-style: none;
+}
+li{
+	margin-top: 15px;
 }
